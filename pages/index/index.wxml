@@ -1,0 +1,63 @@
+<!--pages/home/home.wxml-->
+
+  <!-- 菜单轮播图 -->
+  <view class="container">
+
+  
+  <view class="page-header">
+  <swiper  class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" >
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/ad1.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/ad3.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+  </swiper>
+  </view>
+
+  <view class="page-content">
+    <view class="use-card shadow">
+      <navigator class="card1 " url="../list/list">
+        <view class="title">
+          <view class="title-main">外带点餐</view>
+          <view  class="title-detail">方便快捷 下单免排队</view>
+        </view>
+        <view class="pic"><image src="../../images/waidai.png" /></view>
+      </navigator>
+      <view class="card2 ">
+        
+        <navigator class="home-eat card-style">
+          <view class="title">
+            <view class="title-main">外送到家</view>
+            <view  class="title-detail">急速到达</view>
+          </view>
+        <view class="pic"><image src="../../images/waisong.png" /></view>
+        </navigator>
+        <navigator class="store-eat card-style"> 
+          <view class="title">
+            <view class="title-main">堂食点餐</view>
+            <view  class="title-detail">快速出餐</view>
+          </view>
+        <view class="pic"><image src="../../images/tangshi.png" /></view>
+      </navigator>
+        </view>
+    </view>
+    <view class="pay">
+      <view class="title">
+        <view class="title-main">余额支付</view>
+        <view class="title-detail">单笔满10元既可领积分</view>
+      </view>
+      <view class="qtcode">
+        <image src="../../images/qtcode.png" mode="widthFix" />
+      </view>
+    </view>
+
+    <view class="ad-card">
+      <view class="ad-card1 "><image src="../../images/indexAd1.jpg" mode="scaleToFill"></image></view>
+      <view class="ad-card2 "><image src="../../images/indexAd2.jpg" mode="scaleToFill"></image></view>
+    </view>
+    <view class="page-bottom">——    我是有底线的    ——</view>
+</view>
+
+
+</view>

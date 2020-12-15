@@ -1,0 +1,146 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #f1f3f4;
+}
+scroll-view{height: 90%;}
+.page-header{
+  height: 700rpx;
+  width: 100%;
+  text-align: center;
+ 
+  overflow: hidden;
+}
+.swiper{
+  height: 700rpx;
+  width: 100%;
+}
+.swiper .swiper-item{
+  height: 700rpx;
+
+
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.swiper .swiper-item  .slide-image{
+  height: 600rpx;
+  width: 80%;
+}
+
+
+
+.good-content{
+  margin-top: 2rpx;
+  
+  padding-left: 50rpx;
+  width: 100%;
+  height: 170rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.good-content>.title{
+  padding-top: 30rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.good-content>.price{
+  padding-bottom: 30rpx;
+  color: #ff561b;
+}
+
+.good-detail{
+  width: 100%;
+  padding: 40rpx;
+  margin-top: 10rpx;
+  background-color: #ffffff;
+}
+.good-flavor{
+  width: 100%;
+}
+.good-flavor >.title{
+  padding: 10rpx;
+  width: 100%;
+
+
+}
+.good-flavor >.tagArea{
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.good-flavor >.tagArea>.tag{
+  border: 1rpx solid #dddddd;
+  padding: 7rpx;
+  margin: 8rpx;
+  border-radius: 5rpx;
+  color: #666666;
+
+}
+.good-des{
+  margin-top: 20rpx;
+  color: #ff561b;
+}
+.good-num{
+  background-color: #fff;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  margin-top: 3rpx;
+  align-items: center;
+  height:100rpx;
+}
+.page-bottom{
+  width: 100%;
+  position: absolute;
+  bottom: 0rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  
+}
+.page-bottom .left{
+  background-color: #232124;
+  width: 50%;
+}
+.page-bottom .right {
+  width: 50%;
+  background-color: #fed23d;
+}
+.page-bottom .left>button {
+  background-color: black;
+  height: 100%;
+   width: 100%;
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#ffffff;
+}
+.page-bottom .right>button {
+  background-color: #fed23d;
+  height: 100%;
+   width: 100%;
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#ffffff;
+}

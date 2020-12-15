@@ -1,0 +1,54 @@
+<view class="container">
+  <scroll-view scroll-y="true" >
+  <view class="page-header">
+  <swiper  class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" >
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/真鲜蛋奶.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/厚烧鲜乳茶.png" mode="scaleToFill"></image>
+      </swiper-item>
+  </swiper>
+  </view>
+
+  <view class="good-content">
+    <view class="title"> 真鲜蛋奶</view>
+    <view class="price" >￥14.00</view>
+  </view>
+  <view class="good-detail">
+    <view class="good-flavor">
+      <view class="title">口味</view>
+      <view class="tagArea">
+        <text class="tag">树莓接骨木22花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
+      </view>
+    </view>
+    <view class="good-des">商品详情</view>
+  </view>
+  <view class="good-num">
+    <text>www</text>
+    <view>  
+      <text>-</text>
+      <text>1</text>
+      <text>+</text>
+    </view>
+
+  </view>
+
+</scroll-view>
+  <view class="page-bottom">
+    <view class="left">
+     
+      <button>加入购物车</button>
+    </view>
+    <view class="right">
+      <button>立即购买</button>
+    </view>
+
+  </view>
+
+</view>

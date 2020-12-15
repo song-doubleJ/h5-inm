@@ -1,0 +1,79 @@
+<view class="container">
+    
+  <view class="page-header">
+  <swiper  class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" >
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/listAd1.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/listAd2.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item  class="swiper-item">
+        <image class="slide-image" src="../../images/listAd3.jpg" mode="scaleToFill"></image>
+      </swiper-item>
+  </swiper>
+  </view>
+  <view class="map-select">
+    <image src="../../images/地址.png" />
+    <view class="location">
+      <view class="title">
+        杭州电科院青山湖奶吧
+      </view>
+      <view class="detail">
+        <image src="../../images/爱心.png" />
+        <text>收藏</text>
+        <text>距离10km</text>
+      </view>
+ 
+    </view>
+  </view>
+  <view class="warning">
+    <text>  加热、现制产品，制作完成后无法退单</text>
+  
+  </view>
+
+  <view class="page-main">
+    <view class="type">
+      <scroll-view scroll-y="true" >
+        <view wx:for="{{typeArray}}" bindtap="jumpTo" data-opt="d" wx:key="key"
+        data-index="{{index}}" class="{{typeIndex==index?'typeActive':''}}">{{item}}</view>
+      </scroll-view>
+    </view>
+    <view class="menu">
+      <scroll-view scroll-y="true"  scroll-into-view="{{toView}}" >
+  
+      
+        <view wx:for="{{goodArray}}" class="good_show" id="{{item}}" wx:key="key">        
+            <view class="good_pic">
+            <image src="../../images/真鲜蛋奶.jpg">
+            </image>
+          </view>
+          <view class="good_detail">
+            <view class="title">真鲜蛋奶</view>
+            <view class="good_bottom">
+              <view class="cost">￥14.00起</view>
+              <button type="mini">选规格</button>
+              
+            </view>
+          </view></view>
+      </scroll-view>
+    </view>
+  </view>
+  
+  <view class="page-bottom">
+    <view class="left">
+      <view class="icon">
+        <image src="../../images/购物车.png"></image>
+       
+      </view>
+      <view class="cart-content">
+          <view class="title">￥<text>0.00</text></view>
+          <view class="detail">储值每满10元积1分</view>
+        </view>
+    </view>
+    <view class="right">
+      <button>去结算</button>
+    </view>
+
+  </view>
+</view>

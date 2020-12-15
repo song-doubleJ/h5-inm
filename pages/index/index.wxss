@@ -1,0 +1,169 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.page-header{
+  height: 520rpx;
+  width: 100%;
+  text-align: center;
+  border-radius:0 0 25rpx 25rpx;
+  overflow: hidden;
+}
+.swiper{
+  height: 520rpx;
+  width: 100%;
+}
+.swiper .swiper-item{
+  height: 520rpx;
+  width: 100%;
+}
+.swiper .swiper-item  .slide-image{
+  height: 530rpx;
+  width: 100%;
+}
+.page-content{
+  width: 100%;
+  position: absolute;
+  top: 540rpx;
+  bottom: 0rpx;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 20rpx ;
+}
+.use-card{
+  background-color: white;
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  box-shadow:0 3rpx 8rpx -5rpx black;
+  height: 480rpx;
+}
+.card1{
+  box-sizing: border-box;
+  padding: 60rpx 30rpx 60rpx 40rpx;
+  height: 100%;
+  width: 50%;
+  border-right:1rpx solid #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1 .title .title-main {
+  font-size: 38rpx;
+  width: 160rpx;
+  font-weight: 600;
+}
+.card1 .title .title-detail {
+  
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  color: #505050;
+}
+.card1 .pic {
+  width: 220rpx;
+}
+.card1 .pic image{
+  width: 220rpx;
+  height: 110rpx;
+  padding-left: 20rpx;
+}
+
+.card2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card-style .pic image{
+  margin-top: 75rpx;
+  width: 120rpx;
+  height: 90rpx;
+}
+.card2 .home-eat{
+  border-bottom:1rpx solid #f4f4f4;
+}
+.card-style{
+  box-sizing: border-box;
+  padding: 30rpx;
+  width: 100%;
+  flex-grow: 1;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-style .title .title-main {
+  font-size: 38rpx;
+  font-weight: 600;
+}
+.card-style .title .title-detail {
+
+  padding-top: 10rpx;
+  font-size: 25rpx;
+
+  color: #505050;
+ 
+}
+
+.pay{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 620rpx;
+}
+.pay .title .title-main{
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.pay .title .title-detail {
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  color: #505050;
+ 
+}
+.pay image{
+  width: 90rpx;
+}
+.ad-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 700rpx;
+  height: 210rpx;
+ 
+  margin-top: 20rpx;
+
+}
+.ad-card image{
+  border-radius: 20rpx;
+  width: 340rpx;
+  height: 210rpx;
+  box-shadow:0px 13px 10px -12px rgba(0, 0, 0, 0.397);
+}
+
+.page-bottom{
+  margin-top: 70rpx;
+  font-size: small;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.507);
+}
