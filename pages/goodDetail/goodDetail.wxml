@@ -19,7 +19,7 @@
     <view class="good-flavor">
       <view class="title">口味</view>
       <view class="tagArea">
-        <text class="tag">树莓接骨木22花酸奶</text>
+        <text class="tag">树莓接骨木花酸奶</text>
         <text class="tag">树莓接骨木花酸奶</text>
         <text class="tag">树莓接骨木花酸奶</text>
         <text class="tag">树莓接骨木花酸奶</text>
@@ -32,9 +32,9 @@
   <view class="good-num">
     <text>www</text>
     <view>  
-      <text>-</text>
+      <text class="minus">-</text>
       <text>1</text>
-      <text>+</text>
+      <text class="add">+</text>
     </view>
 
   </view>
