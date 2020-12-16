@@ -1,22 +1,19 @@
 {
-  "pages":[
+  "pages": [
+    "pages/order/order",
+    "pages/index/index",
     "pages/userInfo/userInfo",
     "pages/goodDetail/goodDetail",
     "pages/list/list",
-    "pages/index/index",
-
-
-    "pages/order/order",
+ 
     "pages/record/record"
-    
+  
   ],
-  "window":{
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fec400",
     "navigationBarTitleText": "一鸣奶吧",
-    
     "navigationBarTextStyle": "white"
-    
   },
   "tabBar": {
     "color": "#8a8a8a",
@@ -29,7 +26,6 @@
         "pagePath": "pages/index/index",
         "text": "首页"
       },
-    
       {
         "selectedIconPath": "images/order_s.png",
         "iconPath": "images/order.png",
@@ -39,7 +35,7 @@
       {
         "selectedIconPath": "images/user_s.png",
         "iconPath": "images/user.png",
-        "pagePath": "pages/record/record",
+        "pagePath": "pages/userInfo/userInfo",
         "text": "个人中心"
       }
     ]

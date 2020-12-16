@@ -1,2 +1,24 @@
-<!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view class="container">
+<view class="tab">
+  <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">立等可取</view>
+  <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">拼团订单</view>
+  <view class="tab-item {{tab==2?'active':''}}" bindtap="changeItem" data-item="2">预约自提</view>
+  <view class="tab-item {{tab==3?'active':''}}" bindtap="changeItem" data-item="3">外卖配送</view>
+</view>
+<view class="content">
+  <swiper current="{{item}}" bindchange="changeTab">
+  <swiper-item>
+    <include src="lideng.wxml"></include>
+  </swiper-item>
+  <swiper-item>
+    <include src="pintuan.wxml"></include>
+  </swiper-item>
+  <swiper-item>
+    <include src="yuyue.wxml"></include>
+  </swiper-item>
+  <swiper-item>
+    <include src="waimai.wxml"></include>
+  </swiper-item>
+  </swiper>
+</view>
+</view>

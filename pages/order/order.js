@@ -5,9 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    item:0,
+    tab:0,
   },
 
+
+
+  changeItem:function(e){
+    this.setData({
+      item:e.target.dataset.item
+    })
+    //console.log(e)
+   
+  },
+  changeTab:function(e){
+    
+    this.setData({
+      
+      tab:e.detail.current
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

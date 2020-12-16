@@ -1,0 +1,74 @@
+<view class="lideng-page">
+  <view class="order-card">
+    <view class="title">
+      <view class="store">
+        杭州电科院青山湖奶吧 >
+      </view>
+      <view class="states">已完成</view>
+    </view>
+    <view class="order-content">
+      <view class="left">
+        <view class="pic">
+          <image src="../../images/厚烧鲜乳茶.png"/>
+        </view>
+        <view class="detail">
+          <view class="name">
+              厚烧鲜乳茶
+          </view>
+          <view class="attr">
+            口味：芝芝芋泥
+          </view>
+        </view>
+      </view>
+      
+        <view class="right">
+          <view class="spend">￥14.00</view>
+          <view class="num">共1件</view>
+        </view>
+    </view>
+    <view class="bottom">
+      <view class="disc">
+        共1件商品 合计20.00
+      </view>
+      <view class="com">
+       <view>去评价</view>
+      </view>
+    </view>
+  </view>
+  <view class="order-card">
+    <view class="title">
+      <view class="store">
+        杭州电科院青山湖奶吧 >
+      </view>
+      <view class="states">已完成</view>
+    </view>
+    <view class="order-content">
+      <view class="left">
+        <view class="pic">
+          <image src="../../images/厚烧鲜乳茶.png"/>
+        </view>
+        <view class="detail">
+          <view class="name">
+              厚烧鲜乳茶
+          </view>
+          <view class="attr">
+            口味：芝芝芋泥
+          </view>
+        </view>
+      </view>
+      
+        <view class="right">
+          <view class="spend">￥14.00</view>
+          <view class="num">共1件</view>
+        </view>
+    </view>
+    <view class="bottom">
+      <view class="disc">
+        共1件商品 合计20.00
+      </view>
+      <view class="com">
+       <view>去评价</view>
+      </view>
+    </view>
+  </view>
+</view>
