@@ -1,0 +1,143 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+}
+.page-header{
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.header-top{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50rpx 0rpx 0rpx 0rpx;
+}
+.user-info{
+  display: flex;
+  height: 165rpx;
+  flex-direction: row;
+}
+.user-info >.avator{
+  margin-left: 50rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.user-info >.avator>image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.user-info >.user-detail{
+  width: 200rpx;
+  margin-left: 30rpx;
+}
+.user-info >.user-detail>.name{
+  margin: 5rpx;
+  font-weight: 500;
+}
+.user-info >.user-detail>.phoneNum{
+  color: #616161;
+  margin: 5rpx;
+}
+.user-info >.user-detail>.idNum{
+  color: #616161;
+  margin: 5rpx;
+}
+.share{
+  width: 128rpx;
+  height: 55rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rpx;
+  border: 1rpx #dddddd solid;
+  margin-right: 35rpx;
+}
+.share>image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 5rpx;
+  padding-top: 2rpx;
+}
+.share>view{
+  font-size: 30rpx;
+  color: #6b6b6b;
+}
+.additional{
+  
+
+  display: flex;
+  flex-direction: row;
+}
+.additional>view {
+  margin: 20rpx;
+  padding:0rpx 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.additional>.card1{
+  border-right: solid 1rpx #747474;
+}
+.additional>.card2{
+  border-right: solid 1rpx #747474;
+}
+
+
+.additional>.card>.card-name{
+  color: #747474;
+}
+.page-content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 20rpx;
+
+}
+.content-card{
+  box-sizing: border-box;
+  padding: 30rpx 60rpx;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.content-card>.card-left{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+.content-card>.card-left>image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.content-card>.card-left>view{
+  margin-left: 20rpx;
+}
+.page-content .content-card:not(:last-child) { 
+  
+  border-bottom: solid 1rpx #dddddd;
+}

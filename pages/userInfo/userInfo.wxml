@@ -1,0 +1,81 @@
+<view class="container">
+  <view class="page-header">
+    <view class="header-top">
+    <view class="user-info">
+      <view class="avator">
+        <image src="../../images/厚烧鲜乳茶.png"></image>
+      </view>
+      <view class="user-detail">
+        <view class="name">
+          宋加俊
+        </view>
+        <view class="phoneNum">150</view>
+        <view class="idNum">ID:xcx</view>
+      </view>
+  
+    </view>
+    <view class="share">
+       <image src="../../images/share.png"></image>
+       <view>分享</view>
+      </view>
+  </view>
+    <view class="additional">
+      <view class="card1">
+        <view class="num">0</view>
+        <view class="card-name">支付</view>
+      </view>
+      <view class="card2">
+        <view class="num">0</view>
+        <view class="card-name">支付</view>
+      </view>
+      <view class="card3">
+        <view class="num">0</view>
+        <view class="card-name">支付</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="content-card">
+      <view class="card-left">
+        <image src="../../images/充值记录.png" />
+        <view class="card-name">
+          会员充值
+        </view>
+      </view>
+      
+      <view class="card-right">></view>
+    </view>
+
+    <view class="content-card">
+      <view class="card-left">
+        <image src="../../images/客服.png" />
+        <view class="card-name">
+          联系客服
+        </view>
+      </view>
+      
+      <view class="card-right">></view>
+    </view>
+    <view class="content-card">
+      <view class="card-left">
+        <image src="../../images/我的店铺.png" />
+        <view class="card-name">
+          收藏店铺
+        </view>
+      </view>
+      
+      <view class="card-right">></view>
+    </view>
+    <view class="content-card">
+      <view class="card-left">
+        <image src="../../images/设置.png" />
+        <view class="card-name">
+          设置
+        </view>
+      </view>
+      
+      <view class="card-right">></view>
+    </view>
+  </view>
+</view>

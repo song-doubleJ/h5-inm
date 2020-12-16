@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/userInfo/userInfo",
     "pages/goodDetail/goodDetail",
     "pages/list/list",
     "pages/index/index",
